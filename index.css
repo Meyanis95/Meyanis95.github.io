@@ -1,0 +1,114 @@
+
+
+#top 
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+
+.espace {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#center {
+    padding: 150px;
+    margin-bottom: 30px;
+}
+#logo {
+    
+    margin: 0 auto;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+#nav {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#search {
+    width: 550px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: #ccc;
+    
+}
+
+#loupe {
+    position: absolute;
+    width: 25px;
+    height:25px;
+    margin: 7px 0 0 -260px;
+}
+
+#mic {
+    position: absolute;
+    width: 20px;
+    height:25px;
+    margin: 7px 0 0 260px;
+}
+
+#button {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#foot1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    align-items: flex-end;
+    line-height: 40px;
+    padding-left: 27px;
+    margin: 0 !important;
+    border-top: 1px solid #e4e4e4;
+    
+}
+
+#foot2 {
+    
+    display: flex;
+    justify-content: flex-start;
+    background-color:#f2f2f2;
+    align-items: flex-end;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.left {
+    color: rgba(0,0,0,.54);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 27px;
+    margin: 0 !important;
+
+}
+.right {
+    color: rgba(0,0,0,.54);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 27px;
+    margin: 0 !important;
+}
+
+#footer { 
+    position: absolute; 
+    bottom: 0;
+    left: 0; 
+    right: 0
+
+}
